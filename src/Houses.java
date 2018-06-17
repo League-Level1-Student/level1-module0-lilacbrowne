@@ -10,11 +10,11 @@ Random gen = new Random();
 Robot robot = new Robot();
 robot.setX(25);
 robot.setY(500);
-for(int i = 0; i < 10; i++) {
+for(int i = 0; i < 23; i++) {
 	int height = gen.nextInt(500-100)+100;
 robot.penDown();
 robot.setRandomPenColor();;
-robot.setSpeed(30);
+robot.setSpeed(40);
 
 
 robot.setWindowColor(Color.black);
